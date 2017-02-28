@@ -1,12 +1,21 @@
 
-<script>
-    $(function(){
-        $(".element").typed({
-            strings: ["First sentence.", "Second sentence."],
-            typeSpeed: 0,
-            loop: true
-        });
-    });
-</script>
+<div class="elementContainer">
+  <div class="element" style="display: inline;">...</div>
+</div>
 
-<div class="element" style="display: inline;"></div>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-2 col-sm-2 col-xs-2"></div>
+      <div class="col-md-8 col-sm-8 col-xs-8">
+          <textarea id="content" name="content"></textarea>
+         <!-- <input  class="wideInput" type="text" name="content" id="content"><br> -->
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-2"></div>
+  </div>
+
+
+
+  <div id="writeArea">
+
+  </div>
+</div>
