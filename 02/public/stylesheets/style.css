@@ -25,7 +25,6 @@
   padding: 1px;
   width: 100%;
   height: 300px;
-  resize: none;
+  resize: vertical;
   display: none;
-  border-radius: 2%;
 }
