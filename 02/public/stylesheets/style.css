@@ -28,3 +28,7 @@
   resize: vertical;
   display: none;
 }
+
+#datepicker, #email{
+  display: none;
+}
