@@ -1,7 +1,0 @@
-npm install --save mongodb
-
--- index.js
-var mongo = require('mongodb');
-var assert = require('assert');
-
-var url = 'mongodb://localhost:27017';
